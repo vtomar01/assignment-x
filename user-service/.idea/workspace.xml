@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78bb0489-2a9f-499b-a791-9acf83d5305d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - db1@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="PostgreSQL - db1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="db1: database" type="162271b6:PgImplModel$Database" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.13.6/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../user-service" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1X4NhqBfuyvrU0hA3IXX6cONvs5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../user-service/k8s" />
+    <property name="settings.editor.selected.configurable" value="goland.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../user-service/k8s" />
+      <recent name="$PROJECT_DIR$/../user-service" />
+      <recent name="$PROJECT_DIR$/../user-service/src/main/apis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../user-service/src/main/apis" />
+      <recent name="$PROJECT_DIR$/../user-service/src/main/apis/middleware" />
+      <recent name="$PROJECT_DIR$/../user-service/src/main" />
+      <recent name="$PROJECT_DIR$/../user-service/src/main/context" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="user-profile" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/|$PROJECT_DIR$/../user-service/src/main/user-service.go" />
+      <package value="github.com/unbxd/user-profile" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="user-profile" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <envs>
+        <env name="BUILD_PATH" value="$PROJECT_DIR$/.." />
+      </envs>
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/../user-service/src/main/server.go" />
+      <package value="github.com/unbxd/user-profile" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="user-profile" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/vtomar/user-profile" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build server.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="user svc" />
+    <option name="LAST_COMMIT_MESSAGE" value="user svc" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="224" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580374820166">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="224" y="147" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.797@0.23.1440.797" timestamp="1580374820166" />
+    <state x="461" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580373195511">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="461" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.797@0.23.1440.797" timestamp="1580373195511" />
+    <state x="438" y="80" key="#go_build_user-service.go" timestamp="1580339117784">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="438" y="80" key="#go_build_user-service.go/0.23.1440.797@0.23.1440.797" timestamp="1580339117784" />
+    <state x="312" y="23" width="816" height="797" key="CommitChangelistDialog2" timestamp="1580461395891">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="312" y="23" width="816" height="797" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1580461395891" />
+    <state x="144" y="92" width="1152" height="637" key="DiffContextDialog" timestamp="1580461383041">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="144" y="92" width="1152" height="637" key="DiffContextDialog/0.23.1440.797@0.23.1440.797" timestamp="1580461383041" />
+    <state x="514" y="255" key="EnvironmentVariablesDialog" timestamp="1580339219155">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="514" y="255" key="EnvironmentVariablesDialog/0.23.1440.797@0.23.1440.797" timestamp="1580339219155" />
+    <state width="1358" height="197" key="GridCell.Tab.0.bottom" timestamp="1580462244658">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1358" height="197" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580462244658" />
+    <state width="1358" height="197" key="GridCell.Tab.0.center" timestamp="1580462244657">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1358" height="197" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1580462244657" />
+    <state width="1358" height="197" key="GridCell.Tab.0.left" timestamp="1580462244656">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1358" height="197" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1580462244656" />
+    <state width="1358" height="197" key="GridCell.Tab.0.right" timestamp="1580462244658">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1358" height="197" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1580462244658" />
+    <state width="1358" height="245" key="GridCell.Tab.1.bottom" timestamp="1580461666860">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1358" height="245" key="GridCell.Tab.1.bottom/0.23.1440.797@0.23.1440.797" timestamp="1580461666860" />
+    <state width="1358" height="245" key="GridCell.Tab.1.center" timestamp="1580461666858">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1358" height="245" key="GridCell.Tab.1.center/0.23.1440.797@0.23.1440.797" timestamp="1580461666858" />
+    <state width="1358" height="245" key="GridCell.Tab.1.left" timestamp="1580461666858">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1358" height="245" key="GridCell.Tab.1.left/0.23.1440.797@0.23.1440.797" timestamp="1580461666858" />
+    <state width="1358" height="245" key="GridCell.Tab.1.right" timestamp="1580461666859">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="1358" height="245" key="GridCell.Tab.1.right/0.23.1440.797@0.23.1440.797" timestamp="1580461666859" />
+    <state width="234" height="498" key="HiddenNamespacesPopup" timestamp="1580329521330">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="234" height="498" key="HiddenNamespacesPopup/0.23.1440.797@0.23.1440.797" timestamp="1580329521330" />
+    <state x="519" y="148" key="RollbackChangesDialog" timestamp="1580419238133">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="519" y="148" key="RollbackChangesDialog/0.23.1440.797@0.23.1440.797" timestamp="1580419238133" />
+    <state x="229" y="70" key="SettingsEditor" timestamp="1580379082461">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="229" y="70" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1580379082461" />
+    <state width="601" height="445" key="SwitcherDM" timestamp="1580390552646">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="601" height="445" key="SwitcherDM/0.23.1440.797@0.23.1440.797" timestamp="1580390552646" />
+    <state x="320" y="172" key="Vcs.Push.Dialog.v2" timestamp="1580462313931">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="172" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1580462313931" />
+    <state width="700" height="388" key="XDebugger.FullValuePopup" timestamp="1580450423760">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="700" height="388" key="XDebugger.FullValuePopup/0.23.1440.797@0.23.1440.797" timestamp="1580450423760" />
+    <state x="458" y="365" key="com.goide.actions.debugger.GoDebugCoreDumpAction$CoreDumpDialog" timestamp="1580380947307">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="458" y="365" key="com.goide.actions.debugger.GoDebugCoreDumpAction$CoreDumpDialog/0.23.1440.797@0.23.1440.797" timestamp="1580380947307" />
+    <state x="456" y="124" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1580329509031">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="456" y="124" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1440.797@0.23.1440.797" timestamp="1580329509031" />
+    <state x="383" y="195" width="673" height="472" key="find.popup" timestamp="1580375433758">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="383" y="195" width="673" height="472" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1580375433758" />
+    <state width="600" height="388" key="javadoc.popup" timestamp="1580320864119">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state width="600" height="388" key="javadoc.popup/0.23.1440.797@0.23.1440.797" timestamp="1580320864119" />
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1580420277684">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1580420277684" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../user-service/src/main/context/context.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../user-service/src/main/server.go</url>
+          <line>32</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../user-service/src/main/config/app.go</url>
+          <line>20</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../user-service/src/main/server.go</url>
+          <line>39</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../user-service/src/main/clients/phone_standardizer_client.go</url>
+          <line>22</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../user-service/src/main/clients/common.go</url>
+          <line>23</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

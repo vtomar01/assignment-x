@@ -1,0 +1,19 @@
+{
+  "database": {
+    "username": "vtomar",
+    "password": "vtomar",
+    "name": "db1",
+    "host": "fullstack-postgres",
+    "port": 5432,
+    "maxIdleConn": 10,
+    "maxOpenConn": 10,
+    "debugEnabled": false
+  },
+  "clients": {
+    "phone-standardizer": {
+      "basepath": "http://phone-standardizer-service:8080"
+    }
+  },
+  "server-ip": "0.0.0.0",
+  "server-port": "4001"
+}

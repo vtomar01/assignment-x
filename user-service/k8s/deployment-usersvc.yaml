@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-deployment
+  labels: {app: user}
+spec:
+  selector:
+    matchLabels:
+      app: user
+  replicas: 2
+  template:
+    metadata: {labels: {app: user}}
+    spec:
+      containers:
+        - name: user-profiledepl
+          imagePullPolicy: Never
+          image: user-profile:latest
+          command:
+          ports:
+            - containerPort: 4001
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: user-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: user
+  ports:
+    - protocol: TCP
+      port: 4001
+      targetPort: 4001
+      nodePort: 30002
