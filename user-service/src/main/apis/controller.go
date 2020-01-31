@@ -45,7 +45,7 @@ func (controller *UserController) createUser(req *http.Request) *Response {
 	}
 	return Process(
 		ctx,
-		http.StatusOK,
+		http.StatusCreated,
 		func() (interface{}, error) {
 			return controller.orch.CreateUser(ctx, &request)
 
