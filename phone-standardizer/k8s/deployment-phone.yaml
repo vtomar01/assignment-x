@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: phone-standardizer-deployment
+  labels: {app: phone-standardizer}
+spec:
+  selector:
+    matchLabels:
+      app: phone-standardizer
+  replicas: 2
+  template:
+    metadata: {labels: {app: phone-standardizer}}
+    spec:
+      containers:
+        - name: phone-standardizer
+          imagePullPolicy: Never
+          image: phone-standardizer:latest
+          command:
+          ports:
+            - containerPort: 8080
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: phone-standardizer-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: phone-standardizer
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 30003
